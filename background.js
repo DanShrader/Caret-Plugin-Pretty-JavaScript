@@ -14,6 +14,6 @@ chrome.runtime.onMessageExternal.addListener(
 		var data = message.context.selection;
 		var options = message.options || {};
 		var result = js_beautify(data, options);
-		sendToCaret('editor:insert', result);
-		sendToCaret('status:set', "Completed JS Beautify'd the JavaScript");
+		sendToCaret('editor:insert', result, true);
+		sendToCaret('status:set', "Completed JS Beautify'd the JavaScript", true);
 	});
