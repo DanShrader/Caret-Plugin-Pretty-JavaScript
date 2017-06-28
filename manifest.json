@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "Caret Plugin::Pretty-JavaScript",
-	"description": "This plugin will format JavaScript in Caret.  It uses beautify.js which is from http://jsbeautifier.org/ to format the code.  All of the options can be passed into it and this can be found here https://github.com/beautify-web/js-beautify",
+	"description": "This plugin will format JavaScript in Caret Editor.",
 	"version": "1.0.0",
 	"background": {
 		"scripts": ["background.js", "beautify.js"]

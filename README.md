@@ -1,7 +1,11 @@
 # Caret-Plugin-Pretty-JavaScript
 
-A Caret Editor plug-in which allows for Pretty Print for JavaScript, eventually I'll add it to
-the Chrome web store.
+A Caret Editor plug-in which allows for Pretty Print for JavaScript.
+
+
+
+Here's a link to it in the Chrome [store](https://chrome.google.com/webstore/detail/caret-pluginpretty-javasc/nfkohdggkammeogcdpmiebnlbcgpdcii?utm_source=chrome-ntp-icon), it free.
+
 
 ## To use with Caret
 
