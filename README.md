@@ -12,9 +12,9 @@ Here's a link to it in the Chrome [store](https://chrome.google.com/webstore/det
 ### api.json
 
 You'll need to add the following to your api.json file, under settings menu.  This plugin
-can pass the same options that JS-Beautify does in the 'options' tag.  **Note: ** The id is the id for it in the Chrome Web store.
+can pass the same options that JS-Beautify does in the 'options' tag.  **Note:** The id is the id for it in the Chrome Web store.
 
-```
+```JavaScript
 {
 	"sampleMessage": {
 		"id": "extension id goes here",
@@ -43,7 +43,7 @@ can pass the same options that JS-Beautify does in the 'options' tag.  **Note: *
 
 You'll want to bind the command to the keyboard, you can select any shortcut combo that you want.
 
-```
+```JavaScript
 "Ctrl-Shift-H": {
 	"command": "api:execute",
 	"argument": "Pretty-JavaScript"
@@ -54,7 +54,7 @@ You'll want to bind the command to the keyboard, you can select any shortcut com
 
 This is optional, but allows the command to be accessable in menu system.
 
-```
+```JavaScript
 {
 	"label": "JavaScript Beautify",
 	"command": "api:execute",
